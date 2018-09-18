@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/godel-format-plugin/formatplugin"
-	"github.com/palantir/godel-format-plugin/formatplugin/config/internal/v0"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatplugin"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatplugin/config/internal/v0"
 )
 
 type Config struct {

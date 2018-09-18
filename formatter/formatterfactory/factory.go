@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,8 @@ package formatterfactory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/palantir/godel-format-plugin/formatplugin"
-	"github.com/palantir/godel-format-plugin/formatter"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatplugin"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatter"
 )
 
 func New(providedFormatterCreators []formatter.Creator, providedConfigUpgraders []formatplugin.ConfigUpgrader) (formatplugin.Factory, error) {

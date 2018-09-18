@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,10 +29,10 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/godel-format-plugin/formatplugin"
-	"github.com/palantir/godel-format-plugin/formatplugin/config"
-	"github.com/palantir/godel-format-plugin/formatter"
-	"github.com/palantir/godel-format-plugin/formatter/formatterfactory"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatplugin"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatplugin/config"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatter"
+	"github.com/sniperkit/snk.fork.palantir-godel-format-plugin/formatter/formatterfactory"
 )
 
 var (

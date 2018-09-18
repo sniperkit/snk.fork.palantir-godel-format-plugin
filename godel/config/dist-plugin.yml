@@ -1,8 +1,11 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 products:
   format-plugin:
     build:
       main-pkg: .
-      version-var: github.com/palantir/godel-format-plugin/cmd.Version
+      version-var: github.com/sniperkit/snk.fork.palantir-godel-format-plugin/cmd.Version
       environment:
         CGO_ENABLED: "0"
       os-archs:
